@@ -4,10 +4,10 @@
 #include "Scene.hpp"
 
 class Renderer {
-    public:
-        Renderer();
+public:
+	Renderer();
 
-        void draw(Scene const& scene) const;
+	void draw(Scene const& scene) const;
 };
 
 #endif //RENDERER_HPP

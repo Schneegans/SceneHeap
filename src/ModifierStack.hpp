@@ -6,13 +6,12 @@
 #include <vector>
 
 class ModifierStack {
-    public:
-        ModifierStack();
+public:
+	ModifierStack();
 
-    private:
-        std::vector<Modifier> modifiers_;
+private:
+	std::vector<Modifier> modifiers_;
 };
 
 #endif //MODIFIERSTACK_HPP
-
 

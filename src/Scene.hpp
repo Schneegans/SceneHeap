@@ -4,10 +4,10 @@
 #include "Node.hpp"
 
 class Scene {
-    public:
-        Scene();
+public:
+	Scene();
 
-        void add_node(Node const& node);
+	void add_node(Node const& node);
 };
 
 #endif //SCENE_HPP

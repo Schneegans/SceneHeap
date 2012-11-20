@@ -4,12 +4,11 @@
 #include "ModifierStack.hpp"
 
 class Node {
-    public:
-        Node();
+public:
+	Node();
 
-    private:
-        ModifierStack modifiers_;
+private:
+	ModifierStack modifiers_;
 };
 
 #endif //NODE_HPP
-
